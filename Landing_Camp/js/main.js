@@ -15,8 +15,4 @@ window.addEventListener('resize', stickyNav);
 
 // http://xiper.net/collect/js-plugins/gallery/fancybox
 //  инициализируем галерею:
-
-	// jQuery(document).ready(function() {
-	// 	jQuery("a").fancybox();
-	// });
-
+$('.js-fancybox').fancybox();
