@@ -11,8 +11,3 @@ function stickyNav() {
 
 window.addEventListener('scroll', stickyNav);
 window.addEventListener('resize', stickyNav);
-
-
-// http://xiper.net/collect/js-plugins/gallery/fancybox
-//  инициализируем галерею:
-$('.js-fancybox').fancybox();
